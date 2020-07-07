@@ -1,10 +1,8 @@
 ### VyntraMart - Online CLothing Mart
 
 ----------
-### Contributors:
+### Co-Authors:
 Utkarsh Mishra: https://github.com/ug-prog01
-
-Sankalp Kulkarni: https://github.com/CapnSK
 
 Niyati Bavishi: https://github.com/NiyatiBavishi
 
