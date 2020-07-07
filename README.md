@@ -22,16 +22,26 @@ E-Commerce application developed for performing Admin and Customer user role ope
 After cloning the repository,
 
 Go to "Angular (Frontend)" folder and in CMD : >npm install 
+
 In the same folder : >ng serve
 
 Once the development server is running,
+
 Go to "SpringBoot (Backend)" folder to the following path:
+
 "/src/main/resources/"
+
 Update the MySql user and password for database connection in this file  -> "application.properties"
+
+Create a database "webservice" in your MySql.
+
 And then in CMD : >mvn spring-boot:run
 
 If both servers are running without any error:
+
 Go to your browser and type: "http://localhost:4200/"
+
+Note: There is no interface provided for admin registration. So you can go to database "webservice" and change the "usertype" in table "user" to "admin" to grant admin priviledges.
 
 ----------
 ### Features available based on the user role
